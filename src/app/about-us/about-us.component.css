@@ -1,0 +1,534 @@
+
+
+
+
+.breadcrumb-image {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 104px 0 110px;
+    position: relative;
+    width:100%;
+    
+    /* height: auto; */
+    /* max-width: 1440px; */
+    
+}
+.breadcrumb-image::before {
+    background: rgba(0, 0, 0, 0.80) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+.breadcrumb-image h1 {
+    color: #ffffff;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 40px;
+    position: relative;
+    text-transform: uppercase;
+    margin-top: 50px;
+    
+}
+.breadcrumbs_path {
+    color: #fff;
+    margin-top: 8px;
+    position: relative;
+    z-index: 9;
+}
+.breadcrumbs_path > a {
+    color: #fff;
+    transition: all 0.3s ease 0s;
+}
+
+h1 {
+    /* text-align: center; */
+    /* color: aqua; */
+    font-weight: 600;
+    font-size: 31px;
+    padding: 50px 291px 23px;
+    color: #8D0145;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  /* p{
+    margin-top: 58px;
+    margin-bottom: 1rem;
+    margin-right: 1026px;
+    margin-left: 50px; */
+    /* font-size: 1.875em; */
+  /* } */
+
+  /* h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+} */
+
+.fa-circle:before {
+    content: "\f111";
+}
+.our_miss_visi {
+    width: 100%;
+    float: left;
+    padding: 60px 0;
+    background: #F3F0F0;
+}
+
+/* h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    margin: 49px;
+}
+
+
+ */
+
+.sum_off {
+    width: 100%;
+    float: left;
+    padding: 30px 0;
+    background: #000b8e;
+    background: -moz-linear-gradient(45deg, #000b8e 0%, #9e003c 100%);
+    background: -webkit-linear-gradient(
+45deg, #000b8e 0%,#9e003c 100%);
+    background: linear-gradient(
+45deg, #000b8e 0%,#9e003c 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000b8e', endColorstr='#9e003c',GradientType=1 );
+    color: #fff;
+}
+
+
+
+
+
+.testimonial4_header h2 {
+    font-size: 40px;
+    color: #960140;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: center;
+}
+
+
+.h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 460px;
+
+}
+
+
+/* .testimonial4_header {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 550px;
+    display: block;
+    margin: 30px auto;
+    text-align: center;
+    position: relative;
+} */
+
+/* body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+} */
+
+@media (max-width: 1200px){
+    
+.h2, h2 {
+    font-size: 3rem;
+    color:#990066;
+    margin: 31px;
+    margin-left: 670px;
+    /* margin-left: 473px; */
+    
+}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa {
+    padding: 9px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+
+
+
+
+  
+        .fa {
+            padding: 9px;
+            font-size: 30px;
+            width: 50px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+        }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+        }
+
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+    
+
+
+
+
+
+
+
+
+        /* @media (max-width: 998px) { */
+
+            /* .breadcrumb-image { */
+                /* float: none; */
+                /* text-align: center; */
+                /* padding: 2px 0;} */
+                
+        /* } */
+
+        
+
+              
+
+
+
+
+
+
+    /* } */
+
+    
+
+    
+
+
+
+    /* crousal */
+
+
+    /* #testimonial4 {
+        overflow: hidden;
+        min-height: 375px;
+        position: relative;
+        width: 100%;
+        padding: 60px 0;
+    }
+
+    div {
+        display: block;
+    }
+
+    body {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333;
+        background-color: #fff;
+    }
+
+    .fa {
+        display: inline-block;
+        font: normal normal normal 14px/1 FontAwesome;
+        font-size: inherit;
+        text-rendering: auto;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    .fa-chevron-right:before {
+        content: "\f054";
+    }
+
+
+    .wow-fadeInDown{
+        margin-left: 10px;
+    }
+
+     */
+
+
+
+     
+     
+
+
+
+
+     /* carousel */
+     
+    
+        
+     
+/* Style the container with a rounded border, grey background and some padding and margin */
+.container {
+    border: 2px solid #ccc;
+    background-color: #eee;
+    border-radius: 5px;
+    padding: 16px;
+    margin: 16px 52px;
+    border: 5px;
+    
+
+  }
+  
+  /* Clear floats after containers */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Float images inside the container to the left. Add a right margin, and style the image as a circle */
+  .container img {
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Increase the font-size of a span element */
+  .container span {
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  /* Add media queries for responsiveness. This will center both the text and the image inside the container */
+  /* @media (max-width: 500px) {
+    .container {
+      text-align: center;
+    }
+  
+    .container img {
+      margin: 15px;
+      float: none;
+      display: block;
+    }
+  }
+     .wow{
+      text-align: center;
+  }
+
+  .car{
+      background: none;
+      
+  }
+
+
+ */
+
+   /* respnsive image  */
+
+
+   /* style="position:fixed; right: 80px" */
+ 
+/* .wow{
+    font-size: 50px;
+    margin-left: 500px;
+    font-family:'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: #8D0145;
+    font-family: sans-serif;
+}
+
+@media all and (min-width:0px)and(min-width:600px){
+    .wow{
+width: 100%;
+    }
+} */
+   
+
+
+/* .................................................>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+/* .wow{
+    text-align: center;
+    font-size: 41px;
+    font-family: fantasy;
+    color: dimgrey;
+} */
+
+
+#footer .footer-top .footer-links ul a {
+    color: #fff;
+    transition: 0.5s;
+    display: inline-block;
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}

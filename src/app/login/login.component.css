@@ -1,0 +1,122 @@
+.login_sec{
+    /* background: url('..assets/banner_form.png') right center no-repeat; */
+    position: relative;
+}
+    .login,
+.image {
+    min-height: 100vh;
+}
+.bg-image {
+    /* background-image: url('..assets/banner_form.png'); */
+    background-size: cover;
+    background-position: center center;
+}
+.login-or {
+    position: relative;
+    font-size: 18px;
+    color: #000066;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+}
+.hr-or {
+    background-color: #000066;
+    height: 3px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.span-or {
+    display: block;
+    position: absolute;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 160px;
+    text-align: center;
+    margin: 0 auto;
+    right: 0;
+    left: 0;
+}
+.form_heading_title h4 {
+    background: #006;
+    box-shadow: 0px 3px 15px rgba(0, 0, 102, 0.35);
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: 40px;
+    border-radius: 3px;
+}
+.form_btn {
+    background: #006;
+    font-size: 21px;
+    max-width: 150px;
+    width: 100%;
+    border-radius: 0;
+    border-color: #fff;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #fff;
+    transition: 0.5s;
+}
+.form_btn:hover {
+    background: #fff;
+    color: #006;
+    border-color: #006;
+}
+.form_all input,
+select {
+    background: #fff;
+    box-shadow: 0px 3px 10px rgba(0, 0, 102, 0.35);
+    font-size: 16px;
+    height: 55px;
+    border: 0;
+    border-radius: 4px !important;
+    position: relative;
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.icon_form_add {
+    position: absolute;
+    bottom: 0;
+    right: 17px;
+    font-size: 22px;
+    color: #000066;
+    bottom: 10px;
+}
+.icon_social {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.icon_social a {
+    font-size: 32px;
+    color: #006;
+    border: 1px solid;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    transition: 0.5s;
+}
+.icon_social a:hover {
+    background: #006;
+    color: #fff;
+}
+.login_sec {
+    padding-bottom: 0;
+}
+
+/* .align-items-center { */
+    /* -ms-flex-align: center!important; */
+    /* align-items: center!important; */
+/* } */
+
+/* .justify-content-center { */
+    /* -ms-flex-pack: center!important; */
+    /* justify-content: center!important; */
+/* } */

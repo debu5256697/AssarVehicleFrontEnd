@@ -1,0 +1,22 @@
+body {
+    font-family: "Rubik", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #106eea;
+}
+
+a:hover {
+    color: #3b8af2;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Rubik", sans-serif;
+}
