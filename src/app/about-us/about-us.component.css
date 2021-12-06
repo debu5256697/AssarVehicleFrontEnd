@@ -26,7 +26,7 @@
 }
 .breadcrumb-image h1 {
     color: #ffffff;
-    font-size: 33px;
+    font-size: 33px;  
     font-weight: 600;
     line-height: 40px;
     position: relative;
@@ -171,9 +171,17 @@ h4 {
     margin-left: 670px;
     /* margin-left: 473px; */
     
-}}
+}} 
 
+.carousel-inner {
+    position: relative;
+    width: 284%;
+    overflow: hidden;
+}
 
+.carousel-indicators .active {
+    background-color: rgb(50, 14, 212);
+}
 
 
 
@@ -531,4 +539,25 @@ a {
     color: #007bff;
     text-decoration: none;
     background-color: transparent;
+}
+
+body {
+    font-family: "Rubik", sans-serif;
+    /* color: #444444; */
+}
+
+
+/* .container[_ngcontent-gft-c57] {
+    width: 100%;
+    padding-right: 468px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+.testi{
+    font-size: 50px;
+    margin-left: 483px;
+    color: #000066;
+    font-weight: 500;
 }

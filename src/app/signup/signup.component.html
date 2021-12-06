@@ -53,8 +53,13 @@
                                                     <input type="checkbox" id="html">
                                                     <label for="html">I agree with the terms and conditions</label>
                                                 </div>
+                                                <!-- <button style="color: blue;">Login</button> -->
+
+                                                <button _ngcontent-mtt-c55="" type="submit"
+                                                    class="btn btn-primary form_btn">Signup</button>
+
                                             </div>
-                                            <div class="col-lg-12">
+                                            <div class="col-lg-12" *ngFor="let dataItem of SignupList">
                                                 <span class="d-flex align-items-center justify-content-center">
                                                     <button class="btn btn-primary form_btn"
                                                         type="submit">Signup</button>
@@ -73,3 +78,15 @@
         </div>
     </section>
 </main>
+<!-- End #main -->
+
+
+<tr *ngFor="let dataItem of SignupList">
+    <td> {{dataItem.SignupList}}</td>
+    <td> {{dataItem.SignupList}}</td>
+    <td><button type="button">Edit</button></td>
+    <td><button type="button">Delete</button></td>
+</tr>
+
+
+<!-- <app-signup></app-signup> -->

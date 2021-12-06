@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
+// // import{Http}from '@angular/common/http'
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -30,6 +32,27 @@ import { HomeComponent } from './home/home.component';
 import { RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { NavbComponent } from './navb/navb.component';
+import { EveryTravelPartnerComponent } from './every-travel-partner/every-travel-partner.component';
+import { HatchbackCarBookComponent } from './hatchback-car-book/hatchback-car-book.component';
+import { OTPComponent } from './otp/otp.component';
+import { TimerComponent } from './timer/timer.component';
+import { MobileNumberOtpComponent } from './mobile-number-otp/mobile-number-otp.component';
+import { ThankyouVehiclenameComponent } from './thankyou-vehiclename/thankyou-vehiclename.component';
+import { BookNowComponent } from './book-now/book-now.component';
+import { EveryTravelPartner1Component } from './every-travel-partner1/every-travel-partner1.component';
+import { EveryTravelPartner2Component } from './every-travel-partner2/every-travel-partner2.component';
+import { TheGatewayCarComponent } from './the-gateway-car/the-gateway-car.component';
+import { OneCabManyDestinationsComponent } from './one-cab-many-destinations/one-cab-many-destinations.component';
+import { SharedService } from './shared.service';
+//  import {HttpClientModule} from '@angular/common/http'
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClient } from '@angular/common/http';
+import { ShowdataComponent } from './showdata/showdata.component';
+// import { RestService } from './signup/rest.service';
+// import { RouterModule } from '@angular/router';
+// import { appRoutes } from './route';
+// import { freeApiServices } from './services/freeapi.service';
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,16 +79,35 @@ import { FormsModule } from '@angular/forms';
     ContactUsComponent,
     DrivingWithAssarComponent,
     FranchiseComponent,
-    HomeComponent
+    HomeComponent,
+    NavbComponent,
+    EveryTravelPartnerComponent,
+    HatchbackCarBookComponent,
+    OTPComponent,
+    TimerComponent,
+    MobileNumberOtpComponent,
+    ThankyouVehiclenameComponent,
+    BookNowComponent,
+    EveryTravelPartner1Component,
+    EveryTravelPartner2Component,
+    TheGatewayCarComponent,
+    OneCabManyDestinationsComponent,
+    ShowdataComponent,
+
   ],
   imports: [
     CommonModule,
     RouterModule,
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
+
+
   ],
-  providers: [],
+  providers: [SharedService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

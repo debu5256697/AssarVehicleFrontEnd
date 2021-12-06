@@ -11,6 +11,21 @@
     }
   });
 
+  // js
+  // function myfunction() {
+  //   var x = document.getElementById("menu");
+
+  //   if (x.style.display == "block") {
+  //     x.style.display = "none";
+  //   }
+  //   else {
+  //     x.style.display = "block";
+  //   }
+
+  // }
+
+  ///////////////////
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 21;
   if (window.matchMedia("(max-width: 991px)").matches) {
@@ -280,4 +295,6 @@
 
 
 })(jQuery);
+
+
 

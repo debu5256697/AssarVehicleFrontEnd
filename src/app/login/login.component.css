@@ -1,6 +1,7 @@
 .login_sec{
     /* background: url('..assets/banner_form.png') right center no-repeat; */
     position: relative;
+    padding: 0;
 }
     .login,
 .image {
@@ -120,3 +121,8 @@ select {
     /* -ms-flex-pack: center!important; */
     /* justify-content: center!important; */
 /* } */
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color:#e91e63 !important ;
+    box-shadow: 0 1px 0 0  #e91e63 !important ;
+}

@@ -34,6 +34,7 @@
 .breadcrumbs_path > a {
     color: #fff;
     transition: all 0.3s ease 0s;
+    text-decoration: none;
 }
 
 
@@ -142,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0;
     text-rendering: optimizeLegibility;
 }
-user agent stylesheet
+/* user agent stylesheet */
 h4 {
     font-weight: bold;
 }

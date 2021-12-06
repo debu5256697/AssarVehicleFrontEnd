@@ -1,0 +1,22 @@
+.login_sec {
+    /* padding-bottom: 0; */
+    padding: 0;
+}
+
+input.ng-invalid.ng-dirty{
+    border-bottom-color:#e91e63 !important ;
+    box-shadow: 0 1px 0 0  #e91e63 !important ;
+}
+
+.form_btn[_ngcontent-mtt-c55] {
+    background: #006;
+    font-size: 21px;
+    max-width: 423px;
+    width: 100%;
+    border-radius: 0;
+    border-color: #fff;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #fff;
+    transition: 0.5s;
+}
